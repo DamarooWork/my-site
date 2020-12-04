@@ -10,7 +10,10 @@ body {
   background-image: url("img/hero-bg.jpg");
   background-position: center;
 }
+.page-header .container{
+  width: 90%;
 
+}
 .container {
 
   max-width: 1408px;
@@ -337,4 +340,15 @@ text-align: right;
   padding: 40px 0;
   background-color: #212349;
 background-image: url("img/footer.png");
+}
+
+
+@media screen and ( max-width: 765px){
+  .container {
+  
+  }
+  .page-header a.header-vk{
+    font-size: 100px;
+    
+  }
 }
